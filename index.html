@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css"
+        integrity="sha512-vebUliqxrVkBy3gucMhClmyQP9On/HAWQdKDXRaAlb/FKuTbxkjPKUyqVOxAcGwFDka79eTF+YXwfke1h3/wfg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/font-awesome-line-awesome/css/all.min.css"
+        integrity="sha512-dC0G5HMA6hLr/E1TM623RN6qK+sL8sz5vB+Uc68J7cBon68bMfKcvbkg6OqlfGHo1nMmcCxO5AinnRTDhWbWsA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+    <title>Stupid Little Design</title>
+</head>
+
+<body>
+    <div class="text-top">
+        <h1>GO AHEAD... TYPE SOMETHING...</h1>
+        <form class="typed-form">
+            <input type="text" name="" id="typed">
+        </form>
+    </div>
+    <div id="keyboard">
+        <div class="keyboard-layout">
+            <button id="escape" class="keys">esc</button>
+            <button class="keys f-key">f1</button>
+            <button class="keys f-key">f2</button>
+            <button class="keys f-key">f3</button>
+            <button class="keys f-key">f4</button>
+            <button class="keys f-key">f5</button>
+            <button class="keys f-key">f6</button>
+            <button class="keys f-key">f7</button>
+            <button class="keys f-key">f8</button>
+            <button class="keys f-key">f9</button>
+            <button class="keys f-key">f0</button>
+            <div class="row">
+                <button class="keys nums"><h1 class="linear-wipe">`</h1></button>
+                <button class="keys nums"><a class="linear-wipe">1</a></button>
+                <button class="keys nums"><a class="linear-wipe">2</a></button>
+                <button class="keys nums"><a class="linear-wipe">3</a></button>
+                <button class="keys nums"><a class="linear-wipe">4</a></button>
+                <button class="keys nums"><a class="linear-wipe">5</a></button>
+                <button class="keys nums"><a class="linear-wipe">6</a></button>
+                <button class="keys nums"><a class="linear-wipe">7</a></button>
+                <button class="keys nums"><a class="linear-wipe">8</a></button>
+                <button class="keys nums"><a class="linear-wipe">9</a></button>
+                <button class="keys nums"><a class="linear-wipe">0</a></button>
+                <button id="minus" class="keys"><a class="linear-wipe">-</a></button>
+                <button id="equal" class="keys"><a class="linear-wipe">=</a></button>
+                <button id="delete" class="keys"><a class="linear-wipe">delete</a></button>
+            </div>
+            <div class="row">
+                <button id="tab" class="keys"><a class="linear-wipe">tab</a></button>
+                <button class="keys"><a class="linear-wipe">Q</a></button>
+                <button class="keys"><a class="linear-wipe">W</a></button>
+                <button class="keys"><a class="linear-wipe">E</a></button>
+                <button class="keys"><a class="linear-wipe">R</a></button>
+                <button class="keys"><a class="linear-wipe">T</a></button>
+                <button class="keys"><a class="linear-wipe">Y</a></button>
+                <button class="keys"><a class="linear-wipe">U</a></button>
+                <button class="keys"><a class="linear-wipe">I</a></button>
+                <button class="keys"><a class="linear-wipe">O</a></button>
+                <button class="keys"><a class="linear-wipe">P</a></button>
+                <button id="open-bracket" class="keys"><a class="linear-wipe">[</a></button>
+                <button id="close-bracket" class="keys"><a class="linear-wipe">]</a></button>
+                <button id="b-slash" class="keys"><a class="linear-wipe">\</a></button>
+            </div>
+            <div class="row">
+                <button id="caps" class="keys"><a class="linear-wipe">caps lock</a></button>
+                <button class="keys"><a class="linear-wipe">A</a></button>
+                <button class="keys"><a class="linear-wipe">S</a></button>
+                <button class="keys"><a class="linear-wipe">D</a></button>
+                <button class="keys"><a class="linear-wipe">F</a></button>
+                <button class="keys"><a class="linear-wipe">G</a></button>
+                <button class="keys"><a class="linear-wipe">H</a></button>
+                <button class="keys"><a class="linear-wipe">J</a></button>
+                <button class="keys"><a class="linear-wipe">K</a></button>
+                <button class="keys"><a class="linear-wipe">L</a></button>
+                <button class="keys"><a class="linear-wipe">;</a></button>
+                <button class="keys"><a class="linear-wipe">'</a></button>
+                <button id="enter" class="keys"><a class="linear-wipe">enter</a></button>
+            </div>
+            <div class="row">
+                <button id="left-shift" class="keys"><a class="linear-wipe">shift</a></button>
+                <button class="keys"><a class="linear-wipe">Z</a></button>
+                <button class="keys"><a class="linear-wipe">X</a></button>
+                <button class="keys"><a class="linear-wipe">C</a></button>
+                <button class="keys"><a class="linear-wipe">V</a></button>
+                <button class="keys"><a class="linear-wipe">B</a></button>
+                <button class="keys"><a class="linear-wipe">N</a></button>
+                <button class="keys"><a class="linear-wipe">M</a></button>
+                <button id="comma" class="keys"><a class="linear-wipe">,</a></button>
+                <button id="period" class="keys"><a class="linear-wipe">.</a></button>
+                <button id="f-slash" class="keys"><a class="linear-wipe">/</a></button>
+                <button id="right-shift" class="keys"><a class="linear-wipe">shift</a></button>
+            </div>
+            <div class="row">
+                <button id="fn" class="keys"><a class="linear-wipe">fn</a></button>
+                <button id="control" class="keys"><a class="linear-wipe">control</a></button>
+                <button id="left-option" class="keys"><a class="linear-wipe">option</a></button>
+                <button id="left-command" class="keys"><a class="linear-wipe">command</a></button>
+                <button id="space" class="keys"><a class="linear-wipe">___________________________</a></button>
+                <button id="right-command" class="keys"><a class="linear-wipe">command</a></button>
+                <button id="right-option" class="keys"><a class="linear-wipe">option</a></button>
+                <div class="directional-pad">
+                    <button id="left-arrow" class="keys d-pad">
+                        <a class="linear-wipe"><i class="las la-caret-left"></i></a>
+                    </button>
+                    <div class="d-pad-column">
+                        <button id="up-arrow" class="keys d-pad">
+                            <a class="linear-wipe">
+                                <i class="las la-caret-up"></i>
+                            </a>
+                        </button>
+                        <button id="down-arrow" class="keys d-pad">
+                            <a class="linear-wipe"><i class="las la-caret-down"></i></a>
+                        </button>
+                    </div>
+                    <button id="right-arrow" class="keys d-pad">
+                        <a class="linear-wipe">
+                            <i class="las la-caret-right"></i>
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text-bottom">
+        <h1>MADE BY: DANIEL CARMICHAEL</h1>
+    </div>
+
+    <script>
+        //Make the DIV element draggagle:
+        dragElement(document.getElementById("keyboard"));
+        function dragElement(elmnt) {
+          var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+          if (document.getElementById(elmnt.id + "header")) {
+            /* if present, the header is where you move the DIV from:*/
+            document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+          } else {
+            /* otherwise, move the DIV from anywhere inside the DIV:*/
+            elmnt.onmousedown = dragMouseDown;
+          }
+        
+          function dragMouseDown(e) {
+            e = e || window.event;
+            e.preventDefault();
+            // get the mouse cursor position at startup:
+            pos3 = e.clientX;
+            pos4 = e.clientY;
+            document.onmouseup = closeDragElement;
+            // call a function whenever the cursor moves:
+            document.onmousemove = elementDrag;
+          }
+        
+          function elementDrag(e) {
+            e = e || window.event;
+            e.preventDefault();
+            // calculate the new cursor position:
+            pos1 = pos3 - e.clientX;
+            pos2 = pos4 - e.clientY;
+            pos3 = e.clientX;
+            pos4 = e.clientY;
+            // set the element's new position:
+            elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+            elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+          }
+        
+          function closeDragElement() {
+            /* stop moving when mouse button is released:*/
+            document.onmouseup = null;
+            document.onmousemove = null;
+          }
+        }
+        </script>
+</body>
+</html>
