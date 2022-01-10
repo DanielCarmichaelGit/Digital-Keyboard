@@ -1,5 +1,6 @@
 body {
     display: flex;
+    flex-direction: column;
     height: 98vh;
     background-color: #131B23;
     border: 10px solid white;
@@ -17,7 +18,7 @@ h1 {
     flex-wrap: wrap;
     height: 10rem;
     width: 30rem;
-    margin-top: -40rem;
+    margin-top: 3rem;
 }
 
 .text-bottom {
@@ -71,6 +72,8 @@ h1 {
     -moz-animation: as-basic-fast 6s linear infinite;
     animation: as-basic-fast 6s linear infinite;
 }
+
+.keys:
 
 @keyframes as-basic-fast {
     0%, 100% {
